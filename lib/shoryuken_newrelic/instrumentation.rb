@@ -2,6 +2,7 @@
 
 require "newrelic_rpm"
 require "shoryuken"
+require "pry"
 
 module ShoryukenNewrelic
   # This class send transactions trace to newrelic
@@ -9,7 +10,6 @@ module ShoryukenNewrelic
     include NewRelic::Agent::Instrumentation::ControllerInstrumentation
 
     def call(worker_instance, _queue, _sqs_msg, _body, &block)
-      puts "here"
       perform_action_with_newrelic_trace({
                                            name: "perform",
                                            class_name: worker_instance.class.to_s,
