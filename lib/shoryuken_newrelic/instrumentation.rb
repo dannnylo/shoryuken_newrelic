@@ -2,7 +2,6 @@
 
 require "newrelic_rpm"
 require "shoryuken"
-require "pry"
 
 module ShoryukenNewrelic
   # This class send transactions trace to newrelic
