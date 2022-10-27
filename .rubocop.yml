@@ -13,5 +13,5 @@ Style/StringLiteralsInInterpolation:
 Layout/LineLength:
   Max: 120
 
-Gemspec/RequireMFA;
+Gemspec/RequireMFA:
   Enabled: false
