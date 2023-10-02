@@ -87,13 +87,13 @@ PLATFORMS
 
 DEPENDENCIES
   aws-sdk-sqs
-  newrelic_rpm
+  newrelic_rpm (>= 3.0)
   rake (~> 13.0)
   rspec (~> 3.0)
   rubocop (~> 1.21)
   rubocop-rake
   rubocop-rspec
-  shoryuken
+  shoryuken (>= 1.0.0)
   shoryuken_newrelic!
 
 BUNDLED WITH
