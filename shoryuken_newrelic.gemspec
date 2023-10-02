@@ -29,10 +29,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "aws-sdk-sqs", ">= 1.0"
   spec.add_dependency "newrelic_rpm", ">= 0.0"
   spec.add_dependency "shoryuken", ">= 0.0"
-
-  spec.add_development_dependency "aws-sdk-sqs", ">= 0.0"
-  spec.add_development_dependency "rubocop-rake", ">= 0.0"
-  spec.add_development_dependency "rubocop-rspec", ">= 0.0"
 end
