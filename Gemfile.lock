@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     shoryuken_newrelic (0.1.0)
+      aws-sdk-sqs (>= 1.0)
       newrelic_rpm
       shoryuken
 
