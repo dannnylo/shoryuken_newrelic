@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "newrelic_rpm", ">= 0.0"
   spec.add_dependency "shoryuken", ">= 0.0"
 
-  spec.add_development_dependency "aws-sdk-sqs", ">= 0.0"
-  spec.add_development_dependency "rubocop-rake", ">= 0.0"
-  spec.add_development_dependency "rubocop-rspec", ">= 0.0"
+  spec.add_development_dependency "aws-sdk-sqs", ">= 1.0"
+  spec.add_development_dependency "rubocop-rake", ">= 0.1.0"
+  spec.add_development_dependency "rubocop-rspec", ">= 1.0"
 end
