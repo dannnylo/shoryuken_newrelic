@@ -16,7 +16,7 @@ gem "newrelic_rpm", ">= 1.0"
 gem "shoryuken", ">= 1.0.1"
 
 group :development do
-  gem "aws-sdk-sqs"#, ">= 1.0"
-  gem "rubocop-rake"#, ">= 0.1.0"
-  gem "rubocop-rspec"#, ">= 1.0"
+  gem "aws-sdk-sqs", ">= 1.0"
+  gem "rubocop-rake", ">= 0.1.0"
+  gem "rubocop-rspec", ">= 1.0"
 end
